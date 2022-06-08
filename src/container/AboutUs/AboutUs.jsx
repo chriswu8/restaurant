@@ -12,7 +12,7 @@ const AboutUs = () => (
       <div className='app__aboutus-content_about'>
         <h1 className='headtext cormorant'>About us</h1>
         <img src={images.spoon} alt="about_spoon" className='spoon_img' />
-        <p className='p__opensans'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p id='lorem'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         <button type='button' className="custom__button">Learn more</button>
       </div>
 
@@ -24,7 +24,7 @@ const AboutUs = () => (
       <div className='app__aboutus-content_history'>
         <h1 className='headtext cormorant'>Our History</h1>
         <img src={images.spoon} alt="about_spoon" className='spoon_img' />
-        <p className='p__opensans'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p id='lorem'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         <button type='button' className="custom__button">Learn more</button>
       </div>
     </div>

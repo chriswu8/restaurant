@@ -1,3 +1,20 @@
+h1 {
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    letter-spacing: 0.04em;
+    line-height: 55px;
+    font-size: 40px;
+}
+
+#lorem {
+    margin: 2rem 0;
+    font-family: var(--font-base);
+    font-size: medium;
+    color: var(--color-white);
+    letter-spacing: 0.04em;
+    line-height: 28px;
+}
+
 .app__aboutus {
     position: relative;
 }
@@ -7,12 +24,40 @@
 }
 
 .app__aboutus-overlay img {
-    width: 725px;
-    height: 525px;
+    width: 525px;
+    height: 325px;
     z-index: 0;
 }
 
 .app__aboutus-content {
     width: 100%;
     z-index: 2;
+}
+
+.app__aboutus-content_about {
+    /* pushes everything to the left */
+    flex: 1; 
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: right;
+}
+
+.app__aboutus-content_knife {
+    margin: 2rem 5rem;
+}
+
+.app__aboutus-content_knife img {
+    height: 555px;
+}
+
+.app__aboutus-content_history {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
 }

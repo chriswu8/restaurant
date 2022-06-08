@@ -14,4 +14,7 @@
     margin: 2rem 0;
     font-family: var(--font-base);
     font-size: medium;
+    color: var(--color-white);
+    letter-spacing: 0.04em;
+    line-height: 28px;
 }
