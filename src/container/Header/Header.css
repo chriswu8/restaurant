@@ -10,10 +10,6 @@
     font-size: 40px;
 }
 
-.app__wrapper-img {
-    width: 10%;
-}
-
 #lorem {
     margin: 2rem 0;
     font-family: var(--font-base);
