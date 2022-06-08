@@ -1,0 +1,18 @@
+.app__aboutus {
+    position: relative;
+}
+
+.app__aboutus-overlay {
+    position: absolute;
+}
+
+.app__aboutus-overlay img {
+    width: 725px;
+    height: 525px;
+    z-index: 0;
+}
+
+.app__aboutus-content {
+    width: 100%;
+    z-index: 2;
+}
