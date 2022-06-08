@@ -77,7 +77,7 @@ h1 {
 
 @media screen and (max-width: 900px) {
     .app__aboutus-content {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .app__aboutus-content_knife {
