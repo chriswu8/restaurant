@@ -20,6 +20,7 @@ import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import brandTB from '../assets/brandTB.png';
 import Wu from '../assets/Wu.png';
+import noodle from '../assets/noodle.png';
 
 
 export default {
@@ -45,4 +46,5 @@ export default {
   quote,
   brandTB,
   Wu,
+  noodle,
 };

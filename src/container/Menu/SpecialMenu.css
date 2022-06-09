@@ -46,9 +46,14 @@
 .app__specialMenu_menu_items {
     display: flex;
     flex-direction: column;
-
     margin: 2rem 0;
     width: 100%;
+}
+
+.noodles {
+    margin-top: 9rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
 
 @media screen and (min-width: 2000px) {
@@ -81,5 +86,10 @@
     .app__specialMenu-menu_heading {
         font-size: 35px;
         line-height: 48.5px;
+    }
+
+    .noodles {
+        margin-top: 3rem;
+        margin-bottom: 6rem;
     }
 }
