@@ -32,10 +32,10 @@ const SpecialMenu = () => (
 
       <div className="food">
         <div className="noodles">
-          <img src={images.noodle} alt="menu__img" />
+          <img className='foodPic' src={images.noodle} alt="menu__img" />
         </div>
         <div className="coconut">
-          <img src={images.coconut} alt="coconut jelly" />
+          <img className='foodPic' src={images.coconut} alt="coconut jelly" />
         </div>
       </div>
 

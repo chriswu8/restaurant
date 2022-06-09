@@ -161,7 +161,7 @@ const desserts = [
   {
     title: 'Coconut Jelly with Mango Pomelo Sago',
     price: '$14',
-    tags: 'two layers of coconut jelly topped with mango pomelo sago',
+    tags: 'two layers of coconut jelly topped with mango, strawberry, blueberries and cantaloupe',
   }, 
   
 ];
