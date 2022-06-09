@@ -31,3 +31,22 @@ h2 {
     margin-top: 1rem;
     margin-left: -0.5rem;
 }
+
+.headChef{
+    color: white;
+}
+
+
+/* ========================= */
+
+@media screen and (max-width: 400px) {
+    .app__chef-content_quote img {
+        width: 23px;
+        height: 15px;
+        margin: 0 1rem 12rem 0;
+    }
+    
+    .app__chef-sign img {
+        width: 55%;
+    }
+}
