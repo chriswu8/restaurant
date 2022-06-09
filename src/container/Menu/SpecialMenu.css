@@ -50,10 +50,17 @@
     width: 100%;
 }
 
+.food {
+    margin-top: 5rem;
+}
+
 .noodles {
-    margin-top: 9rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-top: 17rem;
+    margin-left: 8.5rem;
+}
+
+.coconut {
+    margin-top: 43rem;
 }
 
 @media screen and (min-width: 2000px) {

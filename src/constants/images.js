@@ -21,6 +21,7 @@ import quote from '../assets/quote.png';
 import brandTB from '../assets/brandTB.png';
 import Wu from '../assets/Wu.png';
 import noodle from '../assets/noodle.png';
+import coconut from '../assets/coconut.png';
 
 
 export default {
@@ -47,4 +48,5 @@ export default {
   brandTB,
   Wu,
   noodle,
+  coconut,
 };

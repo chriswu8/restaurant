@@ -101,7 +101,7 @@ const mainCourse = [
     tags: 'two pieces of crispy tempura cod. Creamy coleslaw & endless signature Kennebec fries',
   },  
   {
-    title: 'Nat’s Beef Dip',
+    title: 'Wu’s Beef Dip',
     price: '$20',
     tags: 'slow-roasted & tender Canadian Certified Angus Beef® piled high on garlic panini. Served with au jus',
   },  

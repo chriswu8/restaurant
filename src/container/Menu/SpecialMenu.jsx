@@ -30,9 +30,15 @@ const SpecialMenu = () => (
       </div>
 
 
-      <div className="noodles">
-        <img src={images.noodle} alt="menu__img" />
+      <div className="food">
+        <div className="noodles">
+          <img src={images.noodle} alt="menu__img" />
+        </div>
+        <div className="coconut">
+          <img src={images.coconut} alt="coconut jelly" />
+        </div>
       </div>
+
 
       <div className="app__specialMenu-menu_wine  flex__center">
         <p className="app__specialMenu-menu_heading">Main Course</p>
