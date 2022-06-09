@@ -14,7 +14,7 @@ const Owner = () => (
         </div>
 
         <div className="app__wrapper_info" id='app__wrapper_info2'>
-          <SubHeading title="Franchise Owner's Words" />
+          <SubHeading title="Owner's Words" />
 
           <div className="app__chef-content">
             <div className="app__chef-content_quote">
@@ -24,9 +24,10 @@ const Owner = () => (
           </div>
 
           <div className="app__chef-sign">
-            <p className="headChef">Gordon Ramsay</p>
-            <p className="headChef">Head Chef</p>
-            <img src={images.sign} alt="sign_image" />
+            <p className="headChef">Justin Bieber</p>
+            <p className="headChef">Franchise Owner & Manager</p>
+            {/* signature color: #DDC131 */}
+            <img src={images.sign2} alt="sign_image" />
           </div>
 
         </div>

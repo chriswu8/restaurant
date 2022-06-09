@@ -12,8 +12,8 @@ const App = () => (
     <Chef />
     <Owner />
     
-    {/* <Intro />
-    <Laurels />
+    <Intro />
+    {/* <Laurels />
     <Gallery />
     <FindUs />
     <Footer /> */}
