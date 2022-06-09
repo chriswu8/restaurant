@@ -22,6 +22,7 @@ import brandTB from '../assets/brandTB.png';
 import Wu from '../assets/Wu.png';
 import noodle from '../assets/noodle.png';
 import coconut from '../assets/coconut.png';
+import owner from '../assets/owner.png';
 
 
 export default {
@@ -49,4 +50,5 @@ export default {
   Wu,
   noodle,
   coconut,
+  owner,
 };
