@@ -17,11 +17,13 @@ import award02 from '../assets/award02.png';
 import award03 from '../assets/award03.png';
 import award05 from '../assets/award05.png';
 import sign from '../assets/sign.png';
+import sign2 from '../assets/sign2.png';
 import quote from '../assets/quote.png';
 import brandTB from '../assets/brandTB.png';
 import Wu from '../assets/Wu.png';
 import noodle from '../assets/noodle.png';
 import coconut from '../assets/coconut.png';
+import owner from '../assets/owner.png';
 
 
 export default {
@@ -44,9 +46,11 @@ export default {
   award03,
   award05,
   sign,
+  sign2,
   quote,
   brandTB,
   Wu,
   noodle,
   coconut,
+  owner,
 };

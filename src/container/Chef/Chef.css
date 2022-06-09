@@ -1,12 +1,17 @@
+#values {
+    display: flex;
+    justify-content: center;
+}
+
 .app__chef-content {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-top: 5rem;
+    margin-top: 1rem;
 }
 
 h2 {
-    margin-bottom: -4rem;
+    margin-bottom: -7rem;
 }
 
 .app__chef-content_quote {
@@ -32,7 +37,7 @@ h2 {
     margin-left: -0.5rem;
 }
 
-.headChef{
+.headChef {
     color: white;
 }
 
@@ -40,12 +45,17 @@ h2 {
 /* ========================= */
 
 @media screen and (max-width: 400px) {
+
+    #chefImage {
+        margin-top: 5rem;
+    }
+
     .app__chef-content_quote img {
         width: 23px;
         height: 15px;
         margin: 0 1rem 12rem 0;
     }
-    
+
     .app__chef-sign img {
         width: 55%;
     }
