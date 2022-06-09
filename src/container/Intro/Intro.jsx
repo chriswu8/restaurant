@@ -18,8 +18,7 @@ const Intro = () => {
         muted
       />
       <div className="app__video-overlay flex__center">
-        <div
-          className="app__video-overlay_circle flex__center"
+        <div className="app__video-overlay_circle flex__center"
           onClick={() => {
             setPlayVideo(!playVideo);
             if (playVideo) {
@@ -31,9 +30,9 @@ const Intro = () => {
         >
           {/* if video is paused we play it, and vice versa */}
           {playVideo ? (
-            <BsPauseFill color="#fff" fontSize={30} />
+            <BsPauseFill color="#fff" fontSize={32} />
           ) : (
-            <BsFillPlayFill color="#fff" fontSize={30} />
+            <BsFillPlayFill color="#fff" fontSize={32} />
           )}
         </div>
       </div>
