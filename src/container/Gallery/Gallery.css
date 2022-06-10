@@ -60,11 +60,14 @@
     height: 100%;
     object-fit: cover;
     opacity: 1;
-    transition: .5s ease;
+    transition: .65s ease;
+    border: solid var(--color-golden);
+    border-radius: 15px;
+
 }
 
 .app__gallery-images_card:hover img {
-    opacity: .35;
+    opacity: .65;
 }
 
 .app__gallery-images_card:hover .gallery__image-icon {
