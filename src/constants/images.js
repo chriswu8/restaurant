@@ -24,6 +24,10 @@ import Wu from '../assets/Wu.png';
 import noodle from '../assets/noodle.png';
 import coconut from '../assets/coconut.png';
 import owner from '../assets/owner.png';
+import certificate from '../assets/certificate.png';
+import certificate2 from '../assets/certificate2.png';
+import certificate3 from '../assets/certificate3.png';
+import certificate4 from '../assets/certificate4.png';
 
 
 export default {
@@ -53,4 +57,8 @@ export default {
   noodle,
   coconut,
   owner,
+  certificate,
+  certificate2,
+  certificate3,
+  certificate4,
 };
