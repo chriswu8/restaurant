@@ -1,9 +1,10 @@
-html, body {
+html,
+body {
   width: 100%;
   height: 100%;
   margin: 0px;
   padding: 0px;
-  overflow-x: hidden; 
+  overflow-x: hidden;
 }
 
 .section__padding {
@@ -85,6 +86,16 @@ html, body {
   font-size: 23px;
 }
 
+.p__cormorant2 {
+  font-family: var(--font-base);
+  color: var(--color-golden);
+  letter-spacing: 0.04em;
+  font-size: 55px;
+  margin-left: 30vw;
+  box-sizing: content-box;
+  width: 100%;
+}
+
 .p__opensans {
   font-family: var(--font-alt);
   color: var(--color-white);
@@ -100,6 +111,16 @@ html, body {
   font-size: 64px;
   line-height: 83.2px;
   letter-spacing: 0.04em;
+}
+
+.laurels__cormorant {
+  margin-left: 1rem;
+  font-family: var(--font-base);
+  color: var(--color-white);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 35px;
+  font-size: 35px;
 }
 
 .spoon__img {
@@ -174,6 +195,18 @@ html, body {
 
   .p__cormorant {
     font-size: 19px;
+  }
+
+  .p__cormorant2 {
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    letter-spacing: 0.04em;
+    font-size: 55px;
+    margin-left: 5vw;
+    box-sizing: content-box;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
   }
 
   .headtext__cormorant {
