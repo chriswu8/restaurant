@@ -10,7 +10,6 @@ import menu from '../assets/menu.png';
 import overlaybg from '../assets/overlaybg.png';
 import spoon from '../assets/spoon.svg';
 import welcome from '../assets/welcome.png';
-import findus from '../assets/findus.png';
 import laurels from '../assets/laurels.png';
 import award01 from '../assets/award01.png';
 import award02 from '../assets/award02.png';
@@ -28,6 +27,7 @@ import certificate from '../assets/certificate.png';
 import certificate2 from '../assets/certificate2.png';
 import certificate3 from '../assets/certificate3.png';
 import certificate4 from '../assets/certificate4.png';
+import map from '../assets/map.png';
 
 
 export default {
@@ -43,7 +43,6 @@ export default {
   overlaybg,
   spoon,
   welcome,
-  findus,
   laurels,
   award01,
   award02,
@@ -61,4 +60,5 @@ export default {
   certificate2,
   certificate3,
   certificate4,
+  map,
 };

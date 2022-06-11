@@ -1,0 +1,17 @@
+th {
+    text-align: right;
+}
+
+td {
+    padding-left: 1rem;
+    text-align: center;
+}
+
+.phone {
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.contact {
+    margin-bottom: 3rem;
+}

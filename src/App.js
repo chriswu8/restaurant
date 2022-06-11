@@ -1,6 +1,6 @@
 import React from 'react';
 import { AboutUs, Chef, Owner, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu } from './container';
-import { Navbar } from './components';
+import { Navbar, Map } from './components';
 import './App.css';
 
 const App = () => (
@@ -11,10 +11,11 @@ const App = () => (
     <SpecialMenu />
     <Chef />
     <Owner />
-      <Intro />
+    <Intro />
     <Laurels />
     <Gallery />
     <FindUs />
+    <Map />
     <Footer />
   </div>
 );
