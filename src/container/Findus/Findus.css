@@ -15,3 +15,33 @@ td {
 .contact {
     margin-bottom: 3rem;
 }
+
+.map {
+    border: solid var(--color-golden);
+    border-radius: 15px;
+    margin-right: 8rem;
+}
+
+#contactAndHours {
+    margin-left: 8rem;
+}
+
+@media screen and (max-width: 400px) {
+
+    .times {
+        padding-left: 2rem;
+    }
+
+    #contactAndHours {
+        margin-left: 18%;
+        justify-content: center;
+    }
+
+    .map {
+        border: solid var(--color-golden);
+        border-radius: 15px;
+        margin-left: 8rem;
+        margin-top: -2rem;
+    }
+
+}

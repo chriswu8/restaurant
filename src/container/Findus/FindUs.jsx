@@ -8,7 +8,7 @@ const FindUs = () => {
   return (
 
     <div className="app__bg app__wrapper section__padding" id="contact">
-      <div className="app__wrapper_info">
+      <div className="app__wrapper_info" id='contactAndHours'>
         <h1 className="headtext__cormorant" style={{ marginBottom: '3rem' }}>Find Us</h1>
         <SubHeading title="Contact" />
         <div className="app__wrapper-content">
@@ -19,20 +19,19 @@ const FindUs = () => {
 
           <SubHeading title="Opening Hours" />
           <table>
-            <tr className="p__opensans"><th>Sunday: </th><td>Closed</td></tr>
-            <tr className="p__opensans"><th>Monday:</th><td>10:00 AM - 10:30 PM</td></tr>
-            <tr className="p__opensans"><th>Tuesday:</th><td>10:00 AM - 10:30 PM</td></tr>
-            <tr className="p__opensans"><th>Wednesday:</th><td>10:00 AM - 10:30 PM</td></tr>
-            <tr className="p__opensans"><th>Thursday:</th><td>10:00 AM - 10:30 PM</td></tr>
-            <tr className="p__opensans"><th>Friday:</th><td>09:00 AM - 11:00 PM</td></tr>
-            <tr className="p__opensans"><th>Saturday:</th><td>06:00 AM - 11:00 PM</td></tr>
+            <tr className="p__opensans"><th>Sunday: </th><td className='times'>Closed</td></tr>
+            <tr className="p__opensans"><th>Monday:</th><td className='times'>10:00 AM - 10:30 PM</td></tr>
+            <tr className="p__opensans"><th>Tuesday:</th><td className='times'>10:00 AM - 10:30 PM</td></tr>
+            <tr className="p__opensans"><th>Wednesday:</th><td className='times'>10:00 AM - 10:30 PM</td></tr>
+            <tr className="p__opensans"><th>Thursday:</th><td className='times'>10:00 AM - 10:30 PM</td></tr>
+            <tr className="p__opensans"><th>Friday:</th><td className='times'>09:00 AM - 11:00 PM</td></tr>
+            <tr className="p__opensans"><th>Saturday:</th><td className='times'>06:00 AM - 11:00 PM</td></tr>
           </table>
         </div>
-        <button type="button" className="custom__button" style={{ marginTop: '2rem' }}>Visit Us</button>
       </div>
 
       <div className="app__wrapper_img">
-        <img src={images.map} alt="maps" />
+        <img className='map' src={images.map} alt="maps" />
       </div>
     </div>
   );
