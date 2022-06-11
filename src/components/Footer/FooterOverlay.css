@@ -14,5 +14,12 @@
 
 .app__footerOverlay-img {
     height: 100%;
-    margin-left: -50vw;
+    margin-left: -90vw;
+}
+
+@media screen and (max-width: 420px) {
+    .app__footerOverlay-img {
+        height: 110%;
+        margin-left: -80vw;
+    }
 }
