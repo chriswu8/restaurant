@@ -19,13 +19,13 @@ const FindUs = () => {
 
           <SubHeading title="Opening Hours" />
           <table>
-            <tr className="p__opensans"><th>Sunday: </th><td>Closed</td></tr>
-            <tr className="p__opensans"><th>Monday:</th><td>10:00 AM - 10:30 PM</td></tr>
-            <tr className="p__opensans"><th>Tuesday:</th><td>10:00 AM - 10:30 PM</td></tr>
-            <tr className="p__opensans"><th>Wednesday:</th><td>10:00 AM - 10:30 PM</td></tr>
-            <tr className="p__opensans"><th>Thursday:</th><td>10:00 AM - 10:30 PM</td></tr>
-            <tr className="p__opensans"><th>Friday:</th><td>09:00 AM - 11:00 PM</td></tr>
-            <tr className="p__opensans"><th>Saturday:</th><td>06:00 AM - 11:00 PM</td></tr>
+            <tr className="p__opensans"><th>Sunday: </th><td className='times'>Closed</td></tr>
+            <tr className="p__opensans"><th>Monday:</th><td className='times'>10:00 AM - 10:30 PM</td></tr>
+            <tr className="p__opensans"><th>Tuesday:</th><td className='times'>10:00 AM - 10:30 PM</td></tr>
+            <tr className="p__opensans"><th>Wednesday:</th><td className='times'>10:00 AM - 10:30 PM</td></tr>
+            <tr className="p__opensans"><th>Thursday:</th><td className='times'>10:00 AM - 10:30 PM</td></tr>
+            <tr className="p__opensans"><th>Friday:</th><td className='times'>09:00 AM - 11:00 PM</td></tr>
+            <tr className="p__opensans"><th>Saturday:</th><td className='times'>06:00 AM - 11:00 PM</td></tr>
           </table>
         </div>
       </div>
