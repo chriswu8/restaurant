@@ -9,7 +9,7 @@ const Footer = () => (
     <div>
       <div className="app__footer-links_logo">
         <img className='logo' src={images.brandTB} alt="footer_logo" />
-        <p className="quote">&quot;The best way to find yourself is to lose yourself in the service of others.&quot;</p>
+        <p className="quote">&quot;The best way to find oneself is to lose oneself in the stellar service of others.&quot;</p>
         <img src={images.spoon} className="spoon__img" style={{ marginTop: 15 }} />
         <div className="app__footer-links_icons">
           <FooterOverlay />
