@@ -8,7 +8,7 @@ const FindUs = () => {
   return (
 
     <div className="app__bg app__wrapper section__padding" id="contact">
-      <div className="app__wrapper_info">
+      <div className="app__wrapper_info" id='contactAndHours'>
         <h1 className="headtext__cormorant" style={{ marginBottom: '3rem' }}>Find Us</h1>
         <SubHeading title="Contact" />
         <div className="app__wrapper-content">
@@ -28,11 +28,10 @@ const FindUs = () => {
             <tr className="p__opensans"><th>Saturday:</th><td>06:00 AM - 11:00 PM</td></tr>
           </table>
         </div>
-        <button type="button" className="custom__button" style={{ marginTop: '2rem' }}>Visit Us</button>
       </div>
 
       <div className="app__wrapper_img">
-        <img src={images.map} alt="maps" />
+        <img className='map' src={images.map} alt="maps" />
       </div>
     </div>
   );

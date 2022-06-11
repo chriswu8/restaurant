@@ -15,3 +15,13 @@ td {
 .contact {
     margin-bottom: 3rem;
 }
+
+.map {
+    border: solid var(--color-golden);
+    border-radius: 15px;
+    margin-right: 8rem;
+}
+
+#contactAndHours {
+    margin-left: 8rem;
+}
