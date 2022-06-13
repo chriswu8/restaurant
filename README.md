@@ -1,4 +1,4 @@
-https://cwrestaurant.vercel.app/
+0. Website URL: https://cwrestaurant.vercel.app/
 
 1. Project Title: Chris Wu Restaurant
 
