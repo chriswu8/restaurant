@@ -4,8 +4,8 @@
 
 3. Technologies used
 
-Frontend: HTML, React, CSS, JavaScript
+   Frontend: HTML, React, CSS, JavaScript
 
-Backend: Node.js, Javascript, Vercel
+   Backend: Node.js, Javascript, Vercel
 
 
